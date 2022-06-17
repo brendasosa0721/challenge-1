@@ -55,16 +55,25 @@
  
  /*Hero style Start*/
  .hero {
-     height: 600px;
+     height: 800px;
      background-image: url("../images/digital-marketing-meeting.jpg");
      background-size: cover;
-     background-position: relative;
-     
- }
+     background-position: center;
+     width: 100%;
+   }
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
  
- .float-left {
+ .float-left{
      float: left;
      margin-right: 25px;
+ }
+
+ div{
+    display: block;
  }
  
  .float-right {
@@ -72,13 +81,16 @@
      margin-left: 25px;
  }
  
- .search-engine-optimization {
-     margin-bottom: 20px;
+ .search-engine-optimization{
+     margin-bottom:20px;
      padding: 50px;
      height: 300px;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      background-color: #0072bb;
      color: #ffffff;
+     box-sizing: border-box;
+     
+    
      
  }
  
@@ -146,6 +158,13 @@
      background-color: #2589bd;
  }
  
+ *{
+    box-sizing: border-box;
+ }
+
+ div{
+    display: block;
+ }
  .benefit-lead {
      margin-bottom: 32px;
      color: #ffffff;
