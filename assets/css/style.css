@@ -89,11 +89,11 @@
      background-color: #0072bb;
      color: #ffffff;
      box-sizing: border-box;
-     
-    
-     
+        
+    }
+ div{
+    display: block;
  }
- 
  .online-reputation-management {
      margin-bottom: 20px;
      padding: 50px;
@@ -103,6 +103,9 @@
      color: #ffffff;
  }
  
+ div{
+    box-sizing: block;
+ }
  .social-media-marketing {
      margin-bottom: 20px;
      padding: 50px;
@@ -112,6 +115,9 @@
      color: #ffffff;
  }
  
+ div{
+    display: block;
+ }
  .search-engine-optimization img {
      max-height: 200px;
  }
@@ -143,8 +149,8 @@
  
  .content{
      width: 75%;
-     display:inline-block;
-     margin-left: 20px;
+     display:block;
+     
  }
  /* Hero Style End*/
  .benefits {
@@ -160,14 +166,17 @@
  
  *{
     box-sizing: border-box;
+  
  }
 
  div{
     display: block;
+    
  }
  .benefit-lead {
      margin-bottom: 32px;
      color: #ffffff;
+     
  }
  
  .benefit-brand {
@@ -213,7 +222,8 @@
      max-width: 150px;
  }
  
- 
+ /* footer section*/
+
  .footer {
      padding: 30px;
      clear: both;
